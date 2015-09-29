@@ -1,0 +1,6 @@
+PROJECT ( fallDetec )
+CMAKE_MINIMUM_REQUIRED ( VERSION 2.8 )
+SET ( OpenCV_DIR /usr/local/include/opencv )
+FIND_PACKAGE ( OpenCV REQUIRED )
+ADD_EXECUTABLE (  fallDetec fallDetec.cpp )
+TARGET_LINK_LIBRARIES ( fallDetec ${OpenCV_LIBS} )
