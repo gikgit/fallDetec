@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
-
 #include "cxcore.h"
 #include "highgui.h"
 #include "cv.h"
